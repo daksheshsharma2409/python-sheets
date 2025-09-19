@@ -157,7 +157,7 @@ try:
     video_capture = cv2.VideoCapture(0) # Use 0 for default USB webcam
 
     if not video_capture.isOpened():
-        print("\nERROR: Could not open camera. Please check:")
+        print("\nERROR: Could not open camera. Please check :")
         print("  1. If your USB webcam is connected and powered on.")
         print("  2. If it is not in use by another application.")
         print("  3. If you have granted camera permissions to your terminal/Python environment (macOS/Linux).")
